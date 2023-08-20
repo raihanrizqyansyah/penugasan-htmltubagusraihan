@@ -1,0 +1,58 @@
+/* CSS RESET */
+* {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    padding-top: 130px;
+    display: flex;
+    
+}
+.content {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(33vh);
+    margin-left: 80px;
+}
+body{
+    background-image: url(background.jpg);
+width:50%;
+overflow: hidden;
+}
+
+.foto img {
+    width: 50%;
+    transform: translateX(83vh);
+    border-radius: 50%;
+    border: solid 3px #e4480f;
+}
+.text {
+    transform: translateX(72vh);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 3px;
+    margin-top: 5px;
+}
+.boxkon {
+    transform: translateX(92rem);
+    margin-top: -140px;
+    display: flex;
+    gap: 13px;
+    flex-direction: column;
+
+}
+.boxkon a i {
+    font-size: 60px;
+}
+.a {
+    font-size: 35px;
+}
